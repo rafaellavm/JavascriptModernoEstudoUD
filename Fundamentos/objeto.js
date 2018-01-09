@@ -28,7 +28,7 @@ prod2['Desconto'] = 30;
 console.log('produto 2: ' , prod2);
 
 //NÃO É A MESMA COISA QUE JSON!
-//json é texto, objeto é um elemento com atributos e chaves
+//json é texto, que serve como comunicação entre sistemas, objeto é um elemento com atributos e chaves
 //JSON:
 
 //'{"nome": "Camisa polo", "preco": 79.90}'
