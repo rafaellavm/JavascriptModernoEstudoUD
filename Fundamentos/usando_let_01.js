@@ -10,3 +10,13 @@ console.log('fora = ', numero); //fora = 1;
 // variáveis definidas como 'var' tem escopo global e de função
 
 // variáveis definidas como 'let' tem escopo global, de função e de bloco
+
+var x = 'foo1';
+let y = 'bar1';
+if (true == true) {
+  var x = 'foo2';
+  let y = 'bar2';
+  console.log(x, y); // foo2 bar2
+}
+
+console.log(x, y); // foo2 bar1
