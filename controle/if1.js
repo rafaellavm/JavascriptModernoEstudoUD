@@ -15,15 +15,16 @@ function soForVerdadeEuFalo(valor){
     }
 }
 
-soForVerdadeEuFalo();
-soForVerdadeEuFalo(null);
-soForVerdadeEuFalo(undefined);
-soForVerdadeEuFalo(NaN); //not a number
-soForVerdadeEuFalo(''); //false
-soForVerdadeEuFalo(0);
-soForVerdadeEuFalo(-1); //true
-soForVerdadeEuFalo(' '); //true
-soForVerdadeEuFalo('?'); //true
-soForVerdadeEuFalo([]); //true
-soForVerdadeEuFalo([1,2]); //true
-soForVerdadeEuFalo({}); //true
+//soForVerdadeEuFalo(); //false
+//soForVerdadeEuFalo(null);//false
+//soForVerdadeEuFalo(undefined); //false
+//soForVerdadeEuFalo(NaN); //not a number //false
+//soForVerdadeEuFalo(''); //false
+//soForVerdadeEuFalo(0); //false
+
+//soForVerdadeEuFalo(-1); //true
+//soForVerdadeEuFalo(' '); //true
+//soForVerdadeEuFalo('?'); //true
+//soForVerdadeEuFalo([]); //true
+//soForVerdadeEuFalo([1,2]); //true
+//soForVerdadeEuFalo({}); //true
